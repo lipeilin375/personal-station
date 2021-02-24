@@ -1,1 +1,7 @@
 # personal-station
+this program is for maself but if you need any techlolegy help, please contact me with Wechat or QQ, this is my phone number:+86 15680712161
+and you can add me to your friend list, then i can help you what i can do
+
+but if you want to use it for yourself, please contact me for sure, or if i see your sites with my succeed, i will find out the truth!
+
+thank for your understanding, do this is not so easy by one person~
