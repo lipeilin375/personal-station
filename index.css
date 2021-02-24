@@ -1,0 +1,33 @@
+.light_bar {
+    width: 99%;
+}
+.light_bar nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(110, 160, 218, 0.7);
+    padding: 5px;
+    border-radius: 10px;
+}
+.light_bar nav a {
+    margin-top: 5px;
+    margin-bottom: 3px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: large;
+    background-color: rgba(39, 121, 214, 0.7);
+    padding: 7px;
+    border-radius: 10px;
+}
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: cornflowerblue;
+    font-size: 110%;
+    text-decoration: none;
+}
