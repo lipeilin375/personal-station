@@ -8,7 +8,40 @@
 
     <link rel="stylesheet" href="./index.css" type="text/css">
     <script src="./index.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">  
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">    
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"> </script>  
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"> </script>
 </head>
+<script>
+    var mySwiper = new Swiper('.swiper-container', {
+        direction: 'vertical', // 垂直切换选项
+        loop: true, // 循环模式选项
+
+        // 如果需要分页器
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // 如果需要前进后退按钮
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // 如果需要滚动条
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    })
+</script>
+<style>
+    .swiper-container {
+        width: 60%;
+        height: auto;
+    }
+</style>
 <body>
     <div class="light_bar">
         <nav>
@@ -17,6 +50,19 @@
             <a href="./pages/contact/contact.html">联系我</a>
         </nav>
     </div>
-    <div></div>
+    <div class="menu">
+        <nav>
+            <a href="#task-image">轮播图</a>
+        </nav>
+    </div>
+    <div id="task-image" class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+        </div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+    </div>
 </body>
 </html>
