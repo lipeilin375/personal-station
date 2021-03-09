@@ -1,6 +1,7 @@
 .head {
     position: fixed;
     z-index: 5;
+    width: 100%;
 }
 .light_bar {
     width: 98%;
@@ -10,6 +11,7 @@
     justify-content: center;
     margin: 0 auto;
     position: fixed;
+    z-index: 4;
 }
 .light_bar nav {
     width: 100%;
@@ -80,7 +82,24 @@ a:hover {
     width: 60%;
     height: 350px;
     margin: 0px auto;
+    z-index: 3;
 }
-.change-img {
+.block {
+    width: 100%;
+    z-index: 2;
+    margin-top: 60px;
+}
+.turn-ex {
     position: absolute;
+    margin-top: 330px;
+    margin-left: 50px;
+    color: aqua;
+    font-size: 20px;
+    z-index: 2;
+}
+.turn-img {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 420px;
 }
