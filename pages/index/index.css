@@ -1,0 +1,30 @@
+.head {
+    position: fixed;
+    z-index: 5;
+    width: 100%;
+}
+.swiper-container {
+    width: 60%;
+    height: 350px;
+    margin: 0px auto;
+    z-index: 3;
+}
+.block {
+    width: 100%;
+    z-index: 2;
+    margin-top: 60px;
+}
+.turn-ex {
+    position: absolute;
+    margin-top: 370px;
+    margin-left: 50px;
+    color: rgb(255, 238, 0);
+    font-size: 20px;
+    z-index: 2;
+}
+.turn-img {
+    position: absolute;
+    z-index: 1;
+    width: 60%;
+    height: 420px;
+}
